@@ -7,8 +7,8 @@
 #import <QuartzCore/QuartzCore.h>
 
 
-static CGFloat const kACMagnifyingGlassDefaultRadius = 40;
-static CGFloat const kACMagnifyingGlassDefaultOffset = 0;//0 means magnifying glass will be shown just above the touch point  
+static CGFloat const kACMagnifyingGlassDefaultRadius = 60;
+static CGFloat const kACMagnifyingGlassDefaultOffset = -60;
 static CGFloat const kACMagnifyingGlassDefaultScale = 1.5;
 
 @interface ACMagnifyingGlass ()
